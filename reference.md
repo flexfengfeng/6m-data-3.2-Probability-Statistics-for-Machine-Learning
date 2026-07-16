@@ -147,9 +147,9 @@ A standardised measure of how far a value sits from the mean, expressed in units
 
 **Priya Raman** — CMO and Sarah's manager. The one who asked *"How sure are we?"* at the end of L01, triggering this whole lesson. Her recurring pressure — *"Show me the money, not the accuracy"* — shapes how every future model is evaluated.
 
-**Aisha Patel** — Head of Customer Service. She proposes the apology coupon in Thursday's A/B test scenario. A pragmatic optimist who wants results fast.
+**Aisha Patel** — Head of Customer Service. She proposes the apology coupon in the afternoon A/B test scenario. A pragmatic optimist who wants results fast.
 
-**Marcus Wong** — CTO. Makes his first speaking appearance in L02's Thursday scene, asking whether the apology coupon will actually reduce churn or just add operational complexity for noise. He is the reason every result needs a p-value. His trust has to be earned (an early model failure made him cautious).
+**Marcus Wong** — CTO. Makes his first speaking appearance in L02's afternoon scene, asking whether the apology coupon will actually reduce churn or just add operational complexity for noise. He is the reason every result needs a p-value. His trust has to be earned (an early model failure made him cautious).
 
 **Tom Bradley** — Head of Analytics at Lakeside Bank, NorthStar's banking partner. Returns for the L02 assignment. His question (does the new onboarding flow reduce complaints?) uses all three statistical lenses you learn today.
 
