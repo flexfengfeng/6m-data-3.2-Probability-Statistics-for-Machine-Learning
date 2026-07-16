@@ -1,6 +1,6 @@
 # Lesson — L02 Probability & Statistics for Machine Learning
 
-> **Chapter 2 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Week 3.*
+> **Chapter 2 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Day 3.*
 > Friday afternoon, Priya asked: *"Your model says 60% of reviews are positive. But are the positive ones actually positive? How do we know we can trust that number?"*
 > Sarah didn't have an answer. This lesson is how she gets one.
 
@@ -139,7 +139,7 @@ Work through these after finishing the three Part notebooks. Attempt each questi
 **Q10 — End-to-end.** Sarah's Friday presentation has three numbers: (a) 60% sentiment positive rate, (b) 84% model accuracy (95% CI: 78–89%), (c) coupon A/B test p = 0.038. For each number, write one sentence that correctly interprets it for a non-technical executive audience.
 
 > **Sample answer:**
-> **(a)** "In this week's sample of 10,000 reviews, 60% were classified as positive — though this figure should be taken as an estimate, not a precise count, because the model occasionally misclassifies borderline reviews."
+> **(a)** "In today's sample of 10,000 reviews, 60% were classified as positive — though this figure should be taken as an estimate, not a precise count, because the model occasionally misclassifies borderline reviews."
 > **(b)** "When we checked the model against 200 reviews labelled by hand, it was correct 84% of the time; our statistical analysis suggests the true accuracy is most likely somewhere between 78% and 89%."
 > **(c)** "We found strong statistical evidence that the apology coupon reduces complaint rates — results this large would occur by chance less than 4% of the time if the coupon had no effect — so we recommend proceeding with a cautious roll-out."
 

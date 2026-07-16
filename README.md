@@ -1,6 +1,6 @@
 # L02 — Probability & Statistics for Machine Learning
 
-> *Sarah Chen's second week at NorthStar Retail. Priya asked the hard question on Friday: "How sure are we?" Now Sarah has to learn to defend her number.*
+> *Sarah Chen's third day at NorthStar Retail. Priya asked the hard question on Friday: "How sure are we?" Now Sarah has to learn to defend her number.*
 > By the end of this lesson you will know how to read and describe any distribution of data, put a confidence interval around any estimate, and design and interpret an A/B test — the three statistical tools every ML result stands on.
 
 ---
