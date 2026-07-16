@@ -1,7 +1,7 @@
 # Lesson — L02 Probability & Statistics for Machine Learning
 
-> **Chapter 2 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Week 3.*
-> Friday afternoon, Priya asked: *"Your model says 60% of reviews are positive. But are the positive ones actually positive? How do we know we can trust that number?"*
+> **Chapter 2 of the NorthStar Retail story.** *Sarah Chen · Customer Experience Analyst · Day 3.*
+> Yesterday afternoon, Priya asked: *"Your model says 60% of reviews are positive. But are the positive ones actually positive? How do we know we can trust that number?"*
 > Sarah didn't have an answer. This lesson is how she gets one.
 
 This document is a **short reference** — the lesson itself is taught in the notebooks. Read it for orientation before class, then come back to it for the takeaways, the honest-reporting checklist, the review questions, and the course map.
@@ -12,7 +12,7 @@ This document is a **short reference** — the lesson itself is taught in the no
 
 | Stage | Where to go |
 |---|---|
-| **Pre-class** | `pre-class.md` + `notebooks/01_monday_morning.ipynb` |
+| **Pre-class** | `pre-class.md` + `notebooks/01_morning_briefing.ipynb` |
 | **In-class — Part 1: Distributions** | `notebooks/02_distributions.ipynb` |
 | **In-class — Part 2: CLT + Confidence Intervals** | `notebooks/03_confidence_intervals.ipynb` |
 | **In-class — Part 3: Hypothesis Testing (A/B testing as worked example)** | `notebooks/04_hypothesis_testing.ipynb` |
@@ -25,7 +25,7 @@ The notebooks are the spine. Run them in order. Come back here for the consolida
 
 ## Overview
 
-Sarah's L01 model said "60% positive" — but that was a single number computed from one batch of 10,000 reviews. Priya's question, *how sure are we?*, is the question that probability and statistics exist to answer. By Friday Sarah will hold three new tools: **distributions** (to read the shape of any column of data), **confidence intervals** (to put an honest range around any number she reports), and **hypothesis testing with p-values and effect size** (to decide whether an intervention actually changed anything, or whether the apparent difference is just noise — with A/B testing as the worked example). Every model evaluation, every business experiment, every dashboard number for the rest of the course is read through these three lenses.
+Sarah's L01 model said "60% positive" — but that was a single number computed from one batch of 10,000 reviews. Priya's question, *how sure are we?*, is the question that probability and statistics exist to answer. By the end of the day Sarah will hold three new tools: **distributions** (to read the shape of any column of data), **confidence intervals** (to put an honest range around any number she reports), and **hypothesis testing with p-values and effect size** (to decide whether an intervention actually changed anything, or whether the apparent difference is just noise — with A/B testing as the worked example). Every model evaluation, every business experiment, every dashboard number for the rest of the course is read through these three lenses.
 
 ---
 
@@ -136,10 +136,10 @@ Work through these after finishing the three Part notebooks. Attempt each questi
 
 > **Sample answer:** The p-value of 0.12 means we failed to reject the null hypothesis — we don't have sufficient statistical evidence of an effect. But failure to find evidence is not evidence of no effect. The sample may have been too small, or the effect too small to detect at this sample size. The correct statement is: "We did not find statistically significant evidence of an effect at the 0.05 level. We cannot conclude the intervention does nothing — we conclude only that this test was not powerful enough to detect it."
 
-**Q10 — End-to-end.** Sarah's Friday presentation has three numbers: (a) 60% sentiment positive rate, (b) 84% model accuracy (95% CI: 78–89%), (c) coupon A/B test p = 0.038. For each number, write one sentence that correctly interprets it for a non-technical executive audience.
+**Q10 — End-to-end.** Sarah's end-of-day presentation has three numbers: (a) 60% sentiment positive rate, (b) 84% model accuracy (95% CI: 78–89%), (c) coupon A/B test p = 0.038. For each number, write one sentence that correctly interprets it for a non-technical executive audience.
 
 > **Sample answer:**
-> **(a)** "In this week's sample of 10,000 reviews, 60% were classified as positive — though this figure should be taken as an estimate, not a precise count, because the model occasionally misclassifies borderline reviews."
+> **(a)** "In today's sample of 10,000 reviews, 60% were classified as positive — though this figure should be taken as an estimate, not a precise count, because the model occasionally misclassifies borderline reviews."
 > **(b)** "When we checked the model against 200 reviews labelled by hand, it was correct 84% of the time; our statistical analysis suggests the true accuracy is most likely somewhere between 78% and 89%."
 > **(c)** "We found strong statistical evidence that the apology coupon reduces complaint rates — results this large would occur by chance less than 4% of the time if the coupon had no effect — so we recommend proceeding with a cautious roll-out."
 
@@ -162,7 +162,7 @@ L02 is the lens every later lesson is read through — whenever you report a mod
 
 ---
 
-> *"OK, the sentiment model holds up. But you used a pre-trained one — off the shelf. Can you build us a model that predicts churn from our own customer data? Something we actually trained on NorthStar behaviour?"* — Marcus, after Sarah's Friday presentation.
+> *"OK, the sentiment model holds up. But you used a pre-trained one — off the shelf. Can you build us a model that predicts churn from our own customer data? Something we actually trained on NorthStar behaviour?"* — Marcus, after Sarah's end-of-day presentation.
 
 With that question, Sarah moves onto Marcus's machine-learning project full-time. Priya stays her line manager for the customer-experience work, and Aisha's team keeps feeding new reviews into the sentiment dashboard — but from here on, the briefs come from Marcus.
 >

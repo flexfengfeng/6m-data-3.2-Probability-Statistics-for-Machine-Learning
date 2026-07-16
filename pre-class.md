@@ -7,7 +7,7 @@ This is the simplest version of "show up prepared": watch a short intro video, r
 | Step | Time | What you do |
 |---|---|---|
 | **1. Watch the intro video** | ~5 min  | [L02 intro video on YouTube](https://youtu.be/HNuzkM8quzA) — sets up Sarah's "how sure are we?" problem |
-| **2. Try it** | ~20 min | Open and run `notebooks/01_monday_morning.ipynb` |
+| **2. Try it** | ~20 min | Open and run `notebooks/01_morning_briefing.ipynb` |
 | **3. Reflect** | ~5 min  | Three short questions below |
 
 ---
@@ -22,7 +22,7 @@ Before you open the notebook, watch the short intro video: **[L02 The Analyst's 
 
 ## Step 1 — Try it (~20 min)
 
-Open **`notebooks/01_monday_morning.ipynb`** in VS Code with the `dsai-m3` kernel. Run every cell top to bottom. Read the markdown between cells. Don't skip any cell.
+Open **`notebooks/01_morning_briefing.ipynb`** in VS Code with the `dsai-m3` kernel. Run every cell top to bottom. Read the markdown between cells. Don't skip any cell.
 
 Sarah's positivity number from L01 (~60%) lands on Marcus's desk. He asks the question every senior leader asks: *"How sure are you?"* The notebook walks you through what "sure" means — confidence intervals, hypothesis testing, and the painful truth that 84% accuracy on 200 reviews could be 78% or 89% on the real population.
 

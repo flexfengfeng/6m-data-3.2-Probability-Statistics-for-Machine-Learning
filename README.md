@@ -1,6 +1,6 @@
 # L02 — Probability & Statistics for Machine Learning
 
-> *Sarah Chen's second week at NorthStar Retail. Priya asked the hard question on Friday: "How sure are we?" Now Sarah has to learn to defend her number.*
+> *Sarah Chen's third day at NorthStar Retail. Priya asked the hard question yesterday: "How sure are we?" Now Sarah has to learn to defend her number.*
 > By the end of this lesson you will know how to read and describe any distribution of data, put a confidence interval around any estimate, and design and interpret an A/B test — the three statistical tools every ML result stands on.
 
 ---
@@ -63,7 +63,7 @@ This lesson follows a three-phase flow. Work through the phases in order.
 **Start here →** [**pre-class.md**](./pre-class.md)
 
 You will:
-- Open and run [`notebooks/01_monday_morning.ipynb`](./notebooks/01_monday_morning.ipynb) (~15 min) — Sarah's Monday morning, Priya's pushback, mean vs median
+- Open and run [`notebooks/01_morning_briefing.ipynb`](./notebooks/01_morning_briefing.ipynb) (~15 min) — Sarah's morning briefing, Priya's pushback, mean vs median
 - Reflect on what surprised you
 - Watch two short videos, then explore the [**interactive key-concepts page**](https://su-ntu-ctp.github.io/6m-data-3.2-Probability-Statistics-for-Machine-Learning/) (GitHub Pages)
 - Try three mini-exercises with sample answers
@@ -82,9 +82,9 @@ You will:
 
 | # | Notebook | Sarah's day | What you explore |
 |---|---|---|---|
-| 02 | [`02_distributions.ipynb`](./notebooks/02_distributions.ipynb) | Tuesday | Distribution shapes · normal vs skewed · Z-scores |
-| 03 | [`03_confidence_intervals.ipynb`](./notebooks/03_confidence_intervals.ipynb) | Wednesday | Sampling · the CLT · confidence intervals |
-| 04 | [`04_hypothesis_testing.ipynb`](./notebooks/04_hypothesis_testing.ipynb) | Thursday | A/B testing · p-values · effect size · the three mis-readings |
+| 02 | [`02_distributions.ipynb`](./notebooks/02_distributions.ipynb) | Late morning | Distribution shapes · normal vs skewed · Z-scores |
+| 03 | [`03_confidence_intervals.ipynb`](./notebooks/03_confidence_intervals.ipynb) | Early afternoon | Sampling · the CLT · confidence intervals |
+| 04 | [`04_hypothesis_testing.ipynb`](./notebooks/04_hypothesis_testing.ipynb) | Late afternoon | A/B testing · p-values · effect size · the three mis-readings |
 
 Each notebook opens with a business scenario, guides you through the code with **Pause & Predict** prompts, and ends with a summary table and reflection. Read every markdown cell, not just the code.
 
@@ -133,10 +133,10 @@ environment.yml                     ← Conda environment spec (scipy + statsmod
 docs/
   index.html                        ← Interactive key-concepts page — explore during pre-class (served at https://su-ntu-ctp.github.io/6m-data-3.2-Probability-Statistics-for-Machine-Learning/ via GitHub Pages)
 notebooks/
-  01_monday_morning.ipynb           ← Pre-class hook: Sarah's Monday (~15 min, before class)
-  02_distributions.ipynb            ← Part 1: Distributions (Tuesday, in class)
-  03_confidence_intervals.ipynb     ← Part 2: Confidence Intervals (Wednesday, in class)
-  04_hypothesis_testing.ipynb               ← Part 3: A/B Testing (Thursday, in class)
+  01_morning_briefing.ipynb           ← Pre-class hook: Sarah's morning briefing (~15 min, before class)
+  02_distributions.ipynb            ← Part 1: Distributions (late morning, in class)
+  03_confidence_intervals.ipynb     ← Part 2: Confidence Intervals (early afternoon, in class)
+  04_hypothesis_testing.ipynb               ← Part 3: A/B Testing (late afternoon, in class)
   assignment.ipynb                  ← After class: Lakeside Bank + hospital exercises
   optional_extensions.ipynb         ← 🟡 Optional: Bayes · t-test derivation · bootstrapping · CLT
 ```
